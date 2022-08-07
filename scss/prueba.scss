@@ -1,4 +1,6 @@
 @import "body";
+//variables//
+$letra-color: red;
 
 :root {
 	--bs-blue: #0d6efd;
@@ -9272,6 +9274,6 @@ progress {
 footer {
 	text-align: right;
 	background-color: black;
-	color: red;
+	color: $letra-color;
 	font-weight: 2500;
 }
